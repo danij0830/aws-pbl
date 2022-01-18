@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hell():
-    return "<h1>진리야 안녕, 나랑 눈사람 만들래?<h1>"
+    return "<h1>진리야 안녕, <br> 나랑 눈사람 만들래?<h1>"
 
 @app.route('/test')
 def test():
